@@ -15,7 +15,7 @@ app.add_middleware(
 
 client = MongoClient(os.environ["MONGO_URI"])
 
-db = client["Admonsis"]
+db = client["ISIS2304D10202610"]
 
 
 @app.get("/")
